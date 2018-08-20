@@ -1,0 +1,35 @@
+05-May-2018 20:01:27.538 INFO [http-nio-8080-exec-8] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/usr/local/tomcat/webapps/portaladvtec.war]
+05-May-2018 20:01:31.666 INFO [http-nio-8080-exec-8] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-May-2018 20:01:31.734 INFO [http-nio-8080-exec-8] org.jboss.weld.environment.servlet.EnhancedListener.onStartup WELD-ENV-001008: Initialize Weld using ServletContainerInitializer
+05-May-2018 20:01:31.775 INFO [http-nio-8080-exec-8] org.jboss.weld.bootstrap.WeldStartup.<clinit> WELD-000900: 2.4.1 (Final)
+05-May-2018 20:01:31.849 INFO [http-nio-8080-exec-8] org.jboss.weld.environment.deployment.discovery.DiscoveryStrategyFactory.create WELD-ENV-000020: Using jandex for bean discovery
+
+
+05-May-2018 20:01:32.287 INFO [http-nio-8080-exec-8] org.jboss.weld.bootstrap.WeldStartup.startContainer WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+05-May-2018 20:01:32.996 INFO [http-nio-8080-exec-8] org.jboss.weld.environment.tomcat.TomcatContainer.initialize WELD-ENV-001100: Tomcat 7+ detected, CDI injection will be available in Servlets, Filters and Listeners.
+05-May-2018 20:01:33.969 INFO [http-nio-8080-exec-8] org.jboss.weld.environment.servlet.Listener.contextInitialized WELD-ENV-001006: org.jboss.weld.environment.servlet.EnhancedListener used for ServletContext notifications
+
+
+05-May-2018 20:01:34.002 INFO [http-nio-8080-exec-8] com.sun.faces.config.ConfigureListener.contextInitialized Initializing Mojarra 2.3.2 ( 20170627-2139 e63598abf2ed2bb1a24674f308a734e0dce18a72) for context '/portaladvtec'
+05-May-2018 20:01:34.190 INFO [http-nio-8080-exec-8] com.sun.faces.spi.InjectionProviderFactory.createInstance JSF1048: PostConstruct/PreDestroy annotations present.  ManagedBeans methods marked with these annotations will have said annotations processed.
+05-May-2018 20:01:34.649 INFO [http-nio-8080-exec-8] org.hibernate.validator.internal.util.Version.<clinit> HV000001: Hibernate Validator 5.3.2.Final
+05-May-2018 20:01:35.460 INFO [http-nio-8080-exec-8] org.primefaces.webapp.PostConstructApplicationEventListener.processEvent Running on PrimeFaces 6.1
+05-May-2018 20:01:35.462 INFO [http-nio-8080-exec-8] org.jboss.weld.environment.servlet.EnhancedListener.contextInitialized WELD-ENV-001009: org.jboss.weld.environment.servlet.Listener used for ServletRequest and HttpSession notifications
+05-May-2018 20:01:35.509 INFO [http-nio-8080-exec-8] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/usr/local/tomcat/webapps/portaladvtec.war] has finished in [7,970] ms
+05-May-2018 20:01:36.445 INFO [http-nio-8080-exec-10] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/portaladvtec]
+05-May-2018 20:01:38.875 INFO [http-nio-8080-exec-6] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/usr/local/tomcat/webapps/portaladvtec.war]
+
+
+
+=============================== depurar deploy ===================================================
+certo
+05-May-2018 20:01:32.287 INFO [http-nio-8080-exec-8] org.jboss.weld.bootstrap.WeldStartup.startContainer WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+05-May-2018 20:01:32.996 INFO [http-nio-8080-exec-8] org.jboss.weld.environment.tomcat.TomcatContainer.initialize WELD-ENV-001100: Tomcat 7+ detected, CDI injection will be available in Servlets, Filters and Listeners.
+05-May-2018 20:01:33.969 INFO [http-nio-8080-exec-8] org.jboss.weld.environment.servlet.Listener.contextInitialized WELD-ENV-001006: org.jboss.weld.environment.servlet.EnhancedListener used for ServletContext notifications
+
+
+errado
+05-May-2018 19:48:29.051 INFO [http-nio-8080-exec-5] org.jboss.weld.environment.servlet.WeldServletLifecycle.initialize WELD-ENV-000028: Weld initialization skipped - no bean archive found
+05-May-2018 19:48:29.053 INFO [http-nio-8080-exec-5] org.jboss.weld.environment.servlet.Listener.contextInitialized WELD-ENV-001007: Initialize Weld using ServletContextListener
+05-May-2018 19:48:29.067 INFO [http-nio-8080-exec-5] org.jboss.weld.environment.deployment.discovery.DiscoveryStrategyFactory.create WELD-ENV-000020: Using jandex for bean discovery
+05-May-2018 19:48:29.069 INFO [http-nio-8080-exec-5] org.jboss.weld.environment.servlet.WeldServletLifecycle.initialize WELD-ENV-000028: Weld initialization skipped - no bean archive found

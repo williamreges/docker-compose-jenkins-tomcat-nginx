@@ -1,0 +1,339 @@
+08-May-2018 00:01:42.655 INFO [http-nio-8080-exec-1] org.apache.catalina.util.LifecycleBase.stop The stop() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/portalwartha]] after stop() had already been called. The second call will be ignored.
+08-May-2018 00:01:43.199 INFO [http-nio-8080-exec-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/portalwartha]
+08-May-2018 03:46:46.810 INFO [http-nio-8080-exec-6] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/usr/local/tomcat/webapps/portalmbmanjo.war]
+08-May-2018 03:46:53.154 INFO [http-nio-8080-exec-6] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-May-2018 03:46:53.238 INFO [http-nio-8080-exec-6] org.jboss.weld.environment.servlet.EnhancedListener.onStartup WELD-ENV-001008: Initialize Weld using ServletContainerInitializer
+08-May-2018 03:46:53.310 INFO [http-nio-8080-exec-6] org.jboss.weld.bootstrap.WeldStartup.<clinit> WELD-000900: 2.4.1 (Final)
+08-May-2018 03:46:53.392 INFO [http-nio-8080-exec-6] org.jboss.weld.environment.deployment.discovery.DiscoveryStrategyFactory.create WELD-ENV-000020: Using jandex for bean discovery
+08-May-2018 03:46:53.507 INFO [http-nio-8080-exec-6] org.jboss.weld.environment.servlet.WeldServletLifecycle.initialize WELD-ENV-000028: Weld initialization skipped - no bean archive found
+08-May-2018 03:46:53.508 INFO [http-nio-8080-exec-6] org.jboss.weld.environment.servlet.Listener.contextInitialized WELD-ENV-001007: Initialize Weld using ServletContextListener
+08-May-2018 03:46:53.514 INFO [http-nio-8080-exec-6] org.jboss.weld.environment.deployment.discovery.DiscoveryStrategyFactory.create WELD-ENV-000020: Using jandex for bean discovery
+08-May-2018 03:46:53.515 INFO [http-nio-8080-exec-6] org.jboss.weld.environment.servlet.WeldServletLifecycle.initialize WELD-ENV-000028: Weld initialization skipped - no bean archive found
+08-May-2018 03:46:53.621 INFO [http-nio-8080-exec-6] com.sun.faces.config.ConfigureListener.contextInitialized Initializing Mojarra 2.3.2 ( 20170627-2139 e63598abf2ed2bb1a24674f308a734e0dce18a72) for context '/portalmbmanjo'
+08-May-2018 03:46:53.897 INFO [http-nio-8080-exec-6] com.sun.faces.spi.InjectionProviderFactory.createInstance JSF1048: PostConstruct/PreDestroy annotations present.  ManagedBeans methods marked with these annotations will have said annotations processed.
+08-May-2018 03:46:54.596 INFO [http-nio-8080-exec-6] org.hibernate.validator.internal.util.Version.<clinit> HV000001: Hibernate Validator 5.3.2.Final
+08-May-2018 03:46:55.688 INFO [http-nio-8080-exec-6] org.primefaces.webapp.PostConstructApplicationEventListener.processEvent Running on PrimeFaces 6.1
+08-May-2018 03:46:55.693 SEVERE [http-nio-8080-exec-6] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
+08-May-2018 03:46:55.703 SEVERE [http-nio-8080-exec-6] org.apache.catalina.core.StandardContext.startInternal Context [/portalmbmanjo] startup failed due to previous errors
+08-May-2018 03:46:55.743 INFO [http-nio-8080-exec-6] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/usr/local/tomcat/webapps/portalmbmanjo.war] has finished in [8,933] ms
+08-May-2018 03:56:23.705 INFO [http-nio-8080-exec-3] org.apache.catalina.util.LifecycleBase.stop The stop() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/portalmbmanjo]] after stop() had already been called. The second call will be ignored.
+08-May-2018 03:56:24.230 INFO [http-nio-8080-exec-3] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/portalmbmanjo]
+08-May-2018 03:56:26.890 INFO [http-nio-8080-exec-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/usr/local/tomcat/webapps/portalmbmanjo.war]
+08-May-2018 03:56:30.810 INFO [http-nio-8080-exec-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-May-2018 03:56:30.884 INFO [http-nio-8080-exec-1] org.jboss.weld.environment.servlet.EnhancedListener.onStartup WELD-ENV-001008: Initialize Weld using ServletContainerInitializer
+08-May-2018 03:56:30.935 INFO [http-nio-8080-exec-1] org.jboss.weld.bootstrap.WeldStartup.<clinit> WELD-000900: 2.4.1 (Final)
+08-May-2018 03:56:31.005 INFO [http-nio-8080-exec-1] org.jboss.weld.environment.deployment.discovery.DiscoveryStrategyFactory.create WELD-ENV-000020: Using jandex for bean discovery
+08-May-2018 03:56:31.100 INFO [http-nio-8080-exec-1] org.jboss.weld.environment.servlet.WeldServletLifecycle.initialize WELD-ENV-000028: Weld initialization skipped - no bean archive found
+08-May-2018 03:56:31.113 INFO [http-nio-8080-exec-1] org.jboss.weld.environment.servlet.Listener.contextInitialized WELD-ENV-001007: Initialize Weld using ServletContextListener
+08-May-2018 03:56:31.114 INFO [http-nio-8080-exec-1] org.jboss.weld.environment.deployment.discovery.DiscoveryStrategyFactory.create WELD-ENV-000020: Using jandex for bean discovery
+08-May-2018 03:56:31.123 INFO [http-nio-8080-exec-1] org.jboss.weld.environment.servlet.WeldServletLifecycle.initialize WELD-ENV-000028: Weld initialization skipped - no bean archive found
+08-May-2018 03:56:31.218 INFO [http-nio-8080-exec-1] com.sun.faces.config.ConfigureListener.contextInitialized Initializing Mojarra 2.3.2 ( 20170627-2139 e63598abf2ed2bb1a24674f308a734e0dce18a72) for context '/portalmbmanjo'
+08-May-2018 03:56:31.455 INFO [http-nio-8080-exec-1] com.sun.faces.spi.InjectionProviderFactory.createInstance JSF1048: PostConstruct/PreDestroy annotations present.  ManagedBeans methods marked with these annotations will have said annotations processed.
+08-May-2018 03:56:31.950 INFO [http-nio-8080-exec-1] org.hibernate.validator.internal.util.Version.<clinit> HV000001: Hibernate Validator 5.3.2.Final
+08-May-2018 03:56:32.724 INFO [http-nio-8080-exec-1] org.primefaces.webapp.PostConstructApplicationEventListener.processEvent Running on PrimeFaces 6.1
+08-May-2018 03:56:32.725 SEVERE [http-nio-8080-exec-1] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
+08-May-2018 03:56:32.727 SEVERE [http-nio-8080-exec-1] org.apache.catalina.core.StandardContext.startInternal Context [/portalmbmanjo] startup failed due to previous errors
+08-May-2018 03:56:32.776 INFO [http-nio-8080-exec-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/usr/local/tomcat/webapps/portalmbmanjo.war] has finished in [5,886] ms
+08-May-2018 04:15:09.867 INFO [http-nio-8080-exec-3] org.apache.catalina.util.LifecycleBase.stop The stop() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/portalmbmanjo]] after stop() had already been called. The second call will be ignored.
+08-May-2018 04:15:10.392 INFO [http-nio-8080-exec-3] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/portalmbmanjo]
+08-May-2018 04:15:12.707 INFO [http-nio-8080-exec-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/usr/local/tomcat/webapps/portalmbmanjo.war]
+08-May-2018 04:15:16.091 INFO [http-nio-8080-exec-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-May-2018 04:15:16.138 INFO [http-nio-8080-exec-1] org.jboss.weld.environment.servlet.EnhancedListener.onStartup WELD-ENV-001008: Initialize Weld using ServletContainerInitializer
+08-May-2018 04:15:16.159 INFO [http-nio-8080-exec-1] org.jboss.weld.bootstrap.WeldStartup.<clinit> WELD-000900: 2.4.1 (Final)
+08-May-2018 04:15:16.195 INFO [http-nio-8080-exec-1] org.jboss.weld.environment.deployment.discovery.DiscoveryStrategyFactory.create WELD-ENV-000020: Using jandex for bean discovery
+08-May-2018 04:15:16.277 INFO [http-nio-8080-exec-1] org.jboss.weld.environment.servlet.WeldServletLifecycle.initialize WELD-ENV-000028: Weld initialization skipped - no bean archive found
+08-May-2018 04:15:16.279 INFO [http-nio-8080-exec-1] org.jboss.weld.environment.servlet.Listener.contextInitialized WELD-ENV-001007: Initialize Weld using ServletContextListener
+08-May-2018 04:15:16.280 INFO [http-nio-8080-exec-1] org.jboss.weld.environment.deployment.discovery.DiscoveryStrategyFactory.create WELD-ENV-000020: Using jandex for bean discovery
+08-May-2018 04:15:16.285 INFO [http-nio-8080-exec-1] org.jboss.weld.environment.servlet.WeldServletLifecycle.initialize WELD-ENV-000028: Weld initialization skipped - no bean archive found
+08-May-2018 04:15:16.361 INFO [http-nio-8080-exec-1] com.sun.faces.config.ConfigureListener.contextInitialized Initializing Mojarra 2.3.2 ( 20170627-2139 e63598abf2ed2bb1a24674f308a734e0dce18a72) for context '/portalmbmanjo'
+08-May-2018 04:15:16.524 INFO [http-nio-8080-exec-1] com.sun.faces.spi.InjectionProviderFactory.createInstance JSF1048: PostConstruct/PreDestroy annotations present.  ManagedBeans methods marked with these annotations will have said annotations processed.
+08-May-2018 04:15:16.826 INFO [http-nio-8080-exec-1] org.hibernate.validator.internal.util.Version.<clinit> HV000001: Hibernate Validator 5.3.2.Final
+08-May-2018 04:15:17.414 INFO [http-nio-8080-exec-1] org.primefaces.webapp.PostConstructApplicationEventListener.processEvent Running on PrimeFaces 6.1
+08-May-2018 04:15:17.415 SEVERE [http-nio-8080-exec-1] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
+08-May-2018 04:15:17.417 SEVERE [http-nio-8080-exec-1] org.apache.catalina.core.StandardContext.startInternal Context [/portalmbmanjo] startup failed due to previous errors
+08-May-2018 04:15:17.461 INFO [http-nio-8080-exec-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/usr/local/tomcat/webapps/portalmbmanjo.war] has finished in [4,753] ms
+08-May-2018 04:59:15.977 INFO [http-nio-8080-exec-3] org.apache.catalina.util.LifecycleBase.stop The stop() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/portalmbmanjo]] after stop() had already been called. The second call will be ignored.
+08-May-2018 04:59:16.507 INFO [http-nio-8080-exec-3] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/portalmbmanjo]
+08-May-2018 04:59:18.759 INFO [http-nio-8080-exec-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/usr/local/tomcat/webapps/portalmbmanjo.war]
+08-May-2018 04:59:22.308 INFO [http-nio-8080-exec-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-May-2018 04:59:22.400 INFO [http-nio-8080-exec-1] org.jboss.weld.environment.servlet.EnhancedListener.onStartup WELD-ENV-001008: Initialize Weld using ServletContainerInitializer
+08-May-2018 04:59:22.460 INFO [http-nio-8080-exec-1] org.jboss.weld.bootstrap.WeldStartup.<clinit> WELD-000900: 2.4.1 (Final)
+08-May-2018 04:59:22.543 INFO [http-nio-8080-exec-1] org.jboss.weld.environment.deployment.discovery.DiscoveryStrategyFactory.create WELD-ENV-000020: Using jandex for bean discovery
+08-May-2018 04:59:22.658 INFO [http-nio-8080-exec-1] org.jboss.weld.environment.servlet.WeldServletLifecycle.initialize WELD-ENV-000028: Weld initialization skipped - no bean archive found
+08-May-2018 04:59:22.660 INFO [http-nio-8080-exec-1] org.jboss.weld.environment.servlet.Listener.contextInitialized WELD-ENV-001007: Initialize Weld using ServletContextListener
+08-May-2018 04:59:22.661 INFO [http-nio-8080-exec-1] org.jboss.weld.environment.deployment.discovery.DiscoveryStrategyFactory.create WELD-ENV-000020: Using jandex for bean discovery
+08-May-2018 04:59:22.662 INFO [http-nio-8080-exec-1] org.jboss.weld.environment.servlet.WeldServletLifecycle.initialize WELD-ENV-000028: Weld initialization skipped - no bean archive found
+08-May-2018 04:59:22.783 INFO [http-nio-8080-exec-1] com.sun.faces.config.ConfigureListener.contextInitialized Initializing Mojarra 2.3.2 ( 20170627-2139 e63598abf2ed2bb1a24674f308a734e0dce18a72) for context '/portalmbmanjo'
+08-May-2018 04:59:23.009 INFO [http-nio-8080-exec-1] com.sun.faces.spi.InjectionProviderFactory.createInstance JSF1048: PostConstruct/PreDestroy annotations present.  ManagedBeans methods marked with these annotations will have said annotations processed.
+08-May-2018 04:59:23.443 INFO [http-nio-8080-exec-1] org.hibernate.validator.internal.util.Version.<clinit> HV000001: Hibernate Validator 5.3.2.Final
+08-May-2018 04:59:24.161 INFO [http-nio-8080-exec-1] org.primefaces.webapp.PostConstructApplicationEventListener.processEvent Running on PrimeFaces 6.1
+08-May-2018 04:59:24.162 SEVERE [http-nio-8080-exec-1] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
+08-May-2018 04:59:24.163 SEVERE [http-nio-8080-exec-1] org.apache.catalina.core.StandardContext.startInternal Context [/portalmbmanjo] startup failed due to previous errors
+08-May-2018 04:59:24.228 INFO [http-nio-8080-exec-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/usr/local/tomcat/webapps/portalmbmanjo.war] has finished in [5,470] ms
+08-May-2018 14:31:02.849 INFO [http-nio-8080-exec-6] org.apache.catalina.util.LifecycleBase.stop The stop() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/portalmbmanjo]] after stop() had already been called. The second call will be ignored.
+08-May-2018 14:31:03.403 INFO [http-nio-8080-exec-6] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/portalmbmanjo]
+08-May-2018 14:32:06.500 INFO [http-nio-8080-exec-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/usr/local/tomcat/webapps/portalmbmanjo.war]
+08-May-2018 14:32:15.987 INFO [http-nio-8080-exec-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-May-2018 14:32:16.137 INFO [http-nio-8080-exec-1] org.jboss.weld.environment.servlet.EnhancedListener.onStartup WELD-ENV-001008: Initialize Weld using ServletContainerInitializer
+08-May-2018 14:32:16.229 INFO [http-nio-8080-exec-1] org.jboss.weld.bootstrap.WeldStartup.<clinit> WELD-000900: 2.4.1 (Final)
+08-May-2018 14:32:16.382 INFO [http-nio-8080-exec-1] org.jboss.weld.environment.deployment.discovery.DiscoveryStrategyFactory.create WELD-ENV-000020: Using jandex for bean discovery
+08-May-2018 14:32:16.523 INFO [http-nio-8080-exec-1] org.jboss.weld.environment.servlet.WeldServletLifecycle.initialize WELD-ENV-000028: Weld initialization skipped - no bean archive found
+08-May-2018 14:32:16.527 INFO [http-nio-8080-exec-1] org.jboss.weld.environment.servlet.Listener.contextInitialized WELD-ENV-001007: Initialize Weld using ServletContextListener
+08-May-2018 14:32:16.537 INFO [http-nio-8080-exec-1] org.jboss.weld.environment.deployment.discovery.DiscoveryStrategyFactory.create WELD-ENV-000020: Using jandex for bean discovery
+08-May-2018 14:32:16.540 INFO [http-nio-8080-exec-1] org.jboss.weld.environment.servlet.WeldServletLifecycle.initialize WELD-ENV-000028: Weld initialization skipped - no bean archive found
+08-May-2018 14:32:16.704 INFO [http-nio-8080-exec-1] com.sun.faces.config.ConfigureListener.contextInitialized Initializing Mojarra 2.3.2 ( 20170627-2139 e63598abf2ed2bb1a24674f308a734e0dce18a72) for context '/portalmbmanjo'
+08-May-2018 14:32:17.003 INFO [http-nio-8080-exec-1] com.sun.faces.spi.InjectionProviderFactory.createInstance JSF1048: PostConstruct/PreDestroy annotations present.  ManagedBeans methods marked with these annotations will have said annotations processed.
+08-May-2018 14:32:17.573 INFO [http-nio-8080-exec-1] org.hibernate.validator.internal.util.Version.<clinit> HV000001: Hibernate Validator 5.3.2.Final
+08-May-2018 14:32:19.119 INFO [http-nio-8080-exec-1] org.primefaces.webapp.PostConstructApplicationEventListener.processEvent Running on PrimeFaces 6.1
+08-May-2018 14:32:19.121 SEVERE [http-nio-8080-exec-1] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
+08-May-2018 14:32:19.125 SEVERE [http-nio-8080-exec-1] org.apache.catalina.core.StandardContext.startInternal Context [/portalmbmanjo] startup failed due to previous errors
+08-May-2018 14:32:19.181 INFO [http-nio-8080-exec-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/usr/local/tomcat/webapps/portalmbmanjo.war] has finished in [12,680] ms
+08-May-2018 14:56:32.201 INFO [http-nio-8080-exec-7] org.apache.catalina.util.LifecycleBase.stop The stop() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/portalmbmanjo]] after stop() had already been called. The second call will be ignored.
+08-May-2018 14:56:32.733 INFO [http-nio-8080-exec-7] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/portalmbmanjo]
+08-May-2018 14:56:35.705 INFO [http-nio-8080-exec-4] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/usr/local/tomcat/webapps/portalmbmanjo.war]
+08-May-2018 14:56:42.377 INFO [http-nio-8080-exec-4] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-May-2018 14:56:42.472 INFO [http-nio-8080-exec-4] org.jboss.weld.environment.servlet.EnhancedListener.onStartup WELD-ENV-001008: Initialize Weld using ServletContainerInitializer
+08-May-2018 14:56:42.534 INFO [http-nio-8080-exec-4] org.jboss.weld.bootstrap.WeldStartup.<clinit> WELD-000900: 2.4.1 (Final)
+08-May-2018 14:56:42.636 INFO [http-nio-8080-exec-4] org.jboss.weld.environment.deployment.discovery.DiscoveryStrategyFactory.create WELD-ENV-000020: Using jandex for bean discovery
+08-May-2018 14:56:42.728 INFO [http-nio-8080-exec-4] org.jboss.weld.environment.servlet.WeldServletLifecycle.initialize WELD-ENV-000028: Weld initialization skipped - no bean archive found
+08-May-2018 14:56:42.735 INFO [http-nio-8080-exec-4] org.jboss.weld.environment.servlet.Listener.contextInitialized WELD-ENV-001007: Initialize Weld using ServletContextListener
+08-May-2018 14:56:42.742 INFO [http-nio-8080-exec-4] org.jboss.weld.environment.deployment.discovery.DiscoveryStrategyFactory.create WELD-ENV-000020: Using jandex for bean discovery
+08-May-2018 14:56:42.743 INFO [http-nio-8080-exec-4] org.jboss.weld.environment.servlet.WeldServletLifecycle.initialize WELD-ENV-000028: Weld initialization skipped - no bean archive found
+08-May-2018 14:56:42.907 INFO [http-nio-8080-exec-4] com.sun.faces.config.ConfigureListener.contextInitialized Initializing Mojarra 2.3.2 ( 20170627-2139 e63598abf2ed2bb1a24674f308a734e0dce18a72) for context '/portalmbmanjo'
+08-May-2018 14:56:43.104 INFO [http-nio-8080-exec-4] com.sun.faces.spi.InjectionProviderFactory.createInstance JSF1048: PostConstruct/PreDestroy annotations present.  ManagedBeans methods marked with these annotations will have said annotations processed.
+08-May-2018 14:56:43.952 INFO [http-nio-8080-exec-4] org.hibernate.validator.internal.util.Version.<clinit> HV000001: Hibernate Validator 5.3.2.Final
+08-May-2018 14:56:45.108 INFO [http-nio-8080-exec-4] org.primefaces.webapp.PostConstructApplicationEventListener.processEvent Running on PrimeFaces 6.1
+08-May-2018 14:56:45.110 SEVERE [http-nio-8080-exec-4] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
+08-May-2018 14:56:45.110 SEVERE [http-nio-8080-exec-4] org.apache.catalina.core.StandardContext.startInternal Context [/portalmbmanjo] startup failed due to previous errors
+08-May-2018 14:56:45.150 INFO [http-nio-8080-exec-4] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/usr/local/tomcat/webapps/portalmbmanjo.war] has finished in [9,444] ms
+08-May-2018 15:04:51.760 INFO [http-nio-8080-exec-1] org.apache.catalina.util.LifecycleBase.stop The stop() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/portalmbmanjo]] after stop() had already been called. The second call will be ignored.
+08-May-2018 15:04:52.308 INFO [http-nio-8080-exec-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/portalmbmanjo]
+08-May-2018 15:56:05.163 INFO [http-nio-8080-exec-1] org.apache.coyote.http11.Http11Processor.service Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+ java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:426)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:687)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+08-May-2018 16:36:09.864 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+08-May-2018 16:36:09.896 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+08-May-2018 16:36:09.909 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+08-May-2018 16:36:09.977 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+08-May-2018 16:36:09.980 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+08-May-2018 16:36:09.983 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+08-May-2018 16:36:09.985 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+08-May-2018 17:19:45.612 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.30
+08-May-2018 17:19:45.615 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 3 2018 20:04:09 UTC
+08-May-2018 17:19:45.615 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.30.0
+08-May-2018 17:19:45.616 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+08-May-2018 17:19:45.616 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.9.93-boot2docker
+08-May-2018 17:19:45.616 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+08-May-2018 17:19:45.617 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-openjdk-amd64/jre
+08-May-2018 17:19:45.626 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_171-8u171-b11-1~deb9u1-b11
+08-May-2018 17:19:45.626 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+08-May-2018 17:19:45.626 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /usr/local/tomcat
+08-May-2018 17:19:45.627 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /usr/local/tomcat
+08-May-2018 17:19:45.627 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/usr/local/tomcat/conf/logging.properties
+08-May-2018 17:19:45.628 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-May-2018 17:19:45.628 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+08-May-2018 17:19:45.629 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+08-May-2018 17:19:45.629 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+08-May-2018 17:19:45.629 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+08-May-2018 17:19:45.630 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/usr/local/tomcat
+08-May-2018 17:19:45.630 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/usr/local/tomcat
+08-May-2018 17:19:45.630 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/usr/local/tomcat/temp
+08-May-2018 17:19:45.631 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.5.2].
+08-May-2018 17:19:45.631 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+08-May-2018 17:19:45.632 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+08-May-2018 17:19:45.635 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.0f  25 May 2017]
+08-May-2018 17:19:45.804 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+08-May-2018 17:19:45.830 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+08-May-2018 17:19:45.842 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+08-May-2018 17:19:45.849 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+08-May-2018 17:19:45.856 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1089 ms
+08-May-2018 17:19:45.926 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+08-May-2018 17:19:45.927 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.30
+08-May-2018 17:19:45.957 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [/usr/local/tomcat/conf/Catalina/localhost/manager.xml]
+08-May-2018 17:19:46.040 WARNING [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor A docBase [/usr/local/tomcat/webapps/manager] inside the host appBase has been specified, and will be ignored
+08-May-2018 17:19:46.894 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [/usr/local/tomcat/conf/Catalina/localhost/manager.xml] has finished in [935] ms
+08-May-2018 17:19:46.902 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/usr/local/tomcat/webapps/examples]
+08-May-2018 17:19:47.881 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/usr/local/tomcat/webapps/examples] has finished in [979] ms
+08-May-2018 17:19:47.887 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/usr/local/tomcat/webapps/docs]
+08-May-2018 17:19:47.958 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/usr/local/tomcat/webapps/docs] has finished in [70] ms
+08-May-2018 17:19:47.961 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/usr/local/tomcat/webapps/host-manager]
+08-May-2018 17:19:48.015 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/usr/local/tomcat/webapps/host-manager] has finished in [54] ms
+08-May-2018 17:19:48.047 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/usr/local/tomcat/webapps/ROOT]
+08-May-2018 17:19:48.233 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/usr/local/tomcat/webapps/ROOT] has finished in [186] ms
+08-May-2018 17:19:48.239 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+08-May-2018 17:19:48.251 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+08-May-2018 17:19:48.256 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2398 ms
+08-May-2018 17:30:49.895 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+08-May-2018 17:30:50.031 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+08-May-2018 17:30:50.033 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+08-May-2018 17:30:50.312 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+08-May-2018 17:30:50.314 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+08-May-2018 17:30:50.317 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+08-May-2018 17:30:50.318 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+08-May-2018 17:32:05.412 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.30
+08-May-2018 17:32:05.417 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 3 2018 20:04:09 UTC
+08-May-2018 17:32:05.417 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.30.0
+08-May-2018 17:32:05.418 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+08-May-2018 17:32:05.419 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.9.93-boot2docker
+08-May-2018 17:32:05.420 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+08-May-2018 17:32:05.421 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-openjdk-amd64/jre
+08-May-2018 17:32:05.422 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_171-8u171-b11-1~deb9u1-b11
+08-May-2018 17:32:05.423 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+08-May-2018 17:32:05.424 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /usr/local/tomcat
+08-May-2018 17:32:05.425 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /usr/local/tomcat
+08-May-2018 17:32:05.426 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/usr/local/tomcat/conf/logging.properties
+08-May-2018 17:32:05.428 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-May-2018 17:32:05.429 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+08-May-2018 17:32:05.430 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+08-May-2018 17:32:05.431 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+08-May-2018 17:32:05.432 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+08-May-2018 17:32:05.434 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/usr/local/tomcat
+08-May-2018 17:32:05.436 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/usr/local/tomcat
+08-May-2018 17:32:05.439 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/usr/local/tomcat/temp
+08-May-2018 17:32:05.442 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.5.2].
+08-May-2018 17:32:05.444 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+08-May-2018 17:32:05.447 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+08-May-2018 17:32:05.460 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.0f  25 May 2017]
+08-May-2018 17:32:05.960 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+08-May-2018 17:32:06.055 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+08-May-2018 17:32:06.067 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+08-May-2018 17:32:06.070 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+08-May-2018 17:32:06.072 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2191 ms
+08-May-2018 17:32:06.186 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+08-May-2018 17:32:06.188 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.30
+08-May-2018 17:32:06.248 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [/usr/local/tomcat/conf/Catalina/localhost/manager.xml]
+08-May-2018 17:32:06.324 WARNING [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor A docBase [/usr/local/tomcat/webapps/manager] inside the host appBase has been specified, and will be ignored
+08-May-2018 17:32:07.250 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [/usr/local/tomcat/conf/Catalina/localhost/manager.xml] has finished in [991] ms
+08-May-2018 17:32:07.252 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/usr/local/tomcat/webapps/examples]
+08-May-2018 17:32:08.115 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/usr/local/tomcat/webapps/examples] has finished in [862] ms
+08-May-2018 17:32:08.133 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/usr/local/tomcat/webapps/docs]
+08-May-2018 17:32:08.215 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/usr/local/tomcat/webapps/docs] has finished in [82] ms
+08-May-2018 17:32:08.217 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/usr/local/tomcat/webapps/host-manager]
+08-May-2018 17:32:08.281 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/usr/local/tomcat/webapps/host-manager] has finished in [64] ms
+08-May-2018 17:32:08.283 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/usr/local/tomcat/webapps/ROOT]
+08-May-2018 17:32:08.410 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/usr/local/tomcat/webapps/ROOT] has finished in [127] ms
+08-May-2018 17:32:08.422 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+08-May-2018 17:32:08.441 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+08-May-2018 17:32:08.446 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2373 ms
+08-May-2018 17:42:45.659 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+08-May-2018 17:42:45.681 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+08-May-2018 17:42:45.682 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+08-May-2018 17:42:45.792 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+08-May-2018 17:42:45.794 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+08-May-2018 17:42:45.796 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+08-May-2018 17:42:45.798 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+08-May-2018 17:46:01.814 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.30
+08-May-2018 17:46:01.817 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 3 2018 20:04:09 UTC
+08-May-2018 17:46:01.818 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.30.0
+08-May-2018 17:46:01.818 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+08-May-2018 17:46:01.821 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.9.93-boot2docker
+08-May-2018 17:46:01.822 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+08-May-2018 17:46:01.823 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-openjdk-amd64/jre
+08-May-2018 17:46:01.823 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_171-8u171-b11-1~deb9u1-b11
+08-May-2018 17:46:01.824 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+08-May-2018 17:46:01.825 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /usr/local/tomcat
+08-May-2018 17:46:01.825 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /usr/local/tomcat
+08-May-2018 17:46:01.826 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/usr/local/tomcat/conf/logging.properties
+08-May-2018 17:46:01.827 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-May-2018 17:46:01.828 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+08-May-2018 17:46:01.829 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+08-May-2018 17:46:01.829 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+08-May-2018 17:46:01.830 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+08-May-2018 17:46:01.831 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/usr/local/tomcat
+08-May-2018 17:46:01.831 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/usr/local/tomcat
+08-May-2018 17:46:01.832 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/usr/local/tomcat/temp
+08-May-2018 17:46:01.833 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.5.2].
+08-May-2018 17:46:01.833 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+08-May-2018 17:46:01.834 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+08-May-2018 17:46:01.887 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.0f  25 May 2017]
+08-May-2018 17:46:02.545 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+08-May-2018 17:46:02.746 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+08-May-2018 17:46:02.777 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+08-May-2018 17:46:02.782 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+08-May-2018 17:46:02.783 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 3164 ms
+08-May-2018 17:46:02.910 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+08-May-2018 17:46:02.910 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.30
+08-May-2018 17:46:02.986 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [/usr/local/tomcat/conf/Catalina/localhost/manager.xml]
+08-May-2018 17:46:03.069 WARNING [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor A docBase [/usr/local/tomcat/webapps/manager] inside the host appBase has been specified, and will be ignored
+08-May-2018 17:46:04.229 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [/usr/local/tomcat/conf/Catalina/localhost/manager.xml] has finished in [1,228] ms
+08-May-2018 17:46:04.232 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/usr/local/tomcat/webapps/examples]
+08-May-2018 17:46:04.899 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/usr/local/tomcat/webapps/examples] has finished in [667] ms
+08-May-2018 17:46:04.900 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/usr/local/tomcat/webapps/docs]
+08-May-2018 17:46:04.942 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/usr/local/tomcat/webapps/docs] has finished in [42] ms
+08-May-2018 17:46:04.944 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/usr/local/tomcat/webapps/host-manager]
+08-May-2018 17:46:05.000 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/usr/local/tomcat/webapps/host-manager] has finished in [56] ms
+08-May-2018 17:46:05.002 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/usr/local/tomcat/webapps/ROOT]
+08-May-2018 17:46:05.174 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/usr/local/tomcat/webapps/ROOT] has finished in [172] ms
+08-May-2018 17:46:05.184 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+08-May-2018 17:46:05.197 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+08-May-2018 17:46:05.201 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2418 ms
+08-May-2018 17:46:08.455 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+08-May-2018 17:46:08.545 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+08-May-2018 17:46:08.546 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+08-May-2018 17:46:08.635 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+08-May-2018 17:46:08.643 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+08-May-2018 17:46:08.645 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+08-May-2018 17:46:08.648 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+08-May-2018 17:48:35.460 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.30
+08-May-2018 17:48:35.472 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 3 2018 20:04:09 UTC
+08-May-2018 17:48:35.473 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.30.0
+08-May-2018 17:48:35.474 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+08-May-2018 17:48:35.477 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.9.93-boot2docker
+08-May-2018 17:48:35.478 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+08-May-2018 17:48:35.478 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-openjdk-amd64/jre
+08-May-2018 17:48:35.481 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_171-8u171-b11-1~deb9u1-b11
+08-May-2018 17:48:35.481 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+08-May-2018 17:48:35.482 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /usr/local/tomcat
+08-May-2018 17:48:35.483 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /usr/local/tomcat
+08-May-2018 17:48:35.485 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/usr/local/tomcat/conf/logging.properties
+08-May-2018 17:48:35.486 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-May-2018 17:48:35.489 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+08-May-2018 17:48:35.498 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+08-May-2018 17:48:35.498 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+08-May-2018 17:48:35.499 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+08-May-2018 17:48:35.499 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/usr/local/tomcat
+08-May-2018 17:48:35.499 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/usr/local/tomcat
+08-May-2018 17:48:35.500 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/usr/local/tomcat/temp
+08-May-2018 17:48:35.501 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.5.2].
+08-May-2018 17:48:35.502 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+08-May-2018 17:48:35.503 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+08-May-2018 17:48:35.523 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.0f  25 May 2017]
+08-May-2018 17:48:35.904 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+08-May-2018 17:48:35.973 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+08-May-2018 17:48:36.005 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+08-May-2018 17:48:36.010 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+08-May-2018 17:48:36.013 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2759 ms
+08-May-2018 17:48:36.105 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+08-May-2018 17:48:36.107 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.30
+08-May-2018 17:48:36.135 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [/usr/local/tomcat/conf/Catalina/localhost/manager.xml]
+08-May-2018 17:48:36.215 WARNING [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor A docBase [/usr/local/tomcat/webapps/manager] inside the host appBase has been specified, and will be ignored
+08-May-2018 17:48:36.988 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [/usr/local/tomcat/conf/Catalina/localhost/manager.xml] has finished in [852] ms
+08-May-2018 17:48:36.990 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/usr/local/tomcat/webapps/examples]
+08-May-2018 17:48:37.639 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/usr/local/tomcat/webapps/examples] has finished in [649] ms
+08-May-2018 17:48:37.641 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/usr/local/tomcat/webapps/docs]
+08-May-2018 17:48:37.683 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/usr/local/tomcat/webapps/docs] has finished in [41] ms
+08-May-2018 17:48:37.684 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/usr/local/tomcat/webapps/host-manager]
+08-May-2018 17:48:37.737 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/usr/local/tomcat/webapps/host-manager] has finished in [53] ms
+08-May-2018 17:48:37.739 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/usr/local/tomcat/webapps/ROOT]
+08-May-2018 17:48:37.812 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/usr/local/tomcat/webapps/ROOT] has finished in [73] ms
+08-May-2018 17:48:37.820 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+08-May-2018 17:48:37.831 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+08-May-2018 17:48:37.834 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1820 ms
+08-May-2018 21:01:52.068 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+08-May-2018 21:01:52.084 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+08-May-2018 21:01:52.090 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+08-May-2018 21:01:52.140 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+08-May-2018 21:01:52.145 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+08-May-2018 21:01:52.150 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+08-May-2018 21:01:52.151 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]

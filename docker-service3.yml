@@ -1,0 +1,39 @@
+version: "3"
+
+services:
+       jenkins:
+                image: jenkins:latest
+                ports:
+                  - "50000:50000"
+                  - "50001:8080"
+                networks:
+                  - redeadvtec
+                volumes:
+                  - jenkins_home:/var/jenkins_home
+                deploy:
+                  replicas: 1
+                  restart_policy:
+                   condition: on-failure
+       tomcat:
+                image: tomcat:8.5-jre8
+                ports:
+                 - "8080:8080"
+                networks:
+                 - redeadvtec
+                volumes:
+                  - "./servicos/tomcat8/server.xml:/usr/local/tomcat/conf/server.xml"
+                  - "./servicos/tomcat8/tomcat-users.xml:/usr/local/tomcat/conf/tomcat-users.xml"
+                  - "./servicos/tomcat8/manager.xml:/usr/local/tomcat/conf/Catalina/localhost/manager.xml"
+                  - "./servicos/tomcat8/ROOT:/usr/local/tomcat/webapps/ROOT"
+                  - "./servicos/tomcat8/manager:/usr/local/tomcat/webapps/manager"
+                  - "./servicos/tomcat8/logs:/usr/local/tomcat/logs"
+                  - tomcat_webapps:/usr/local/tomcat/webapps
+                deploy:
+                 replicas: 1
+                 restart_policy:
+                    condition: on-failure
+networks:
+         redeadvtec:
+volumes:
+         jenkins_home:
+	 tomcat_webapps:

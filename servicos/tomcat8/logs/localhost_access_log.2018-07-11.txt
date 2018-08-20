@@ -1,0 +1,13 @@
+172.17.0.3 - sysdba [11/Jul/2018:02:57:40 +0000] "GET /manager/text/list HTTP/1.1" 200 237
+172.17.0.3 - sysdba [11/Jul/2018:02:57:40 +0000] "GET /manager/text/list HTTP/1.1" 200 237
+172.17.0.3 - sysdba [11/Jul/2018:02:57:41 +0000] "GET /manager/text/undeploy?path=%2Fportalmbmaluno HTTP/1.1" 200 73
+172.17.0.3 - sysdba [11/Jul/2018:02:57:51 +0000] "PUT /manager/text/deploy?path=%2Fportalmbmaluno HTTP/1.1" 200 71
+192.168.99.1 - - [11/Jul/2018:02:58:27 +0000] "GET /portalmbmaluno/ HTTP/1.1" 302 -
+192.168.99.1 - - [11/Jul/2018:02:58:28 +0000] "GET /portalmbmaluno/paginas/login.xhtml HTTP/1.1" 200 5259
+192.168.99.1 - - [11/Jul/2018:02:58:28 +0000] "GET /portalmbmaluno/javax.faces.resource/styles/layout-login.css.xhtml?ln=advtec HTTP/1.1" 200 933
+192.168.99.1 - - [11/Jul/2018:02:58:28 +0000] "GET /portalmbmaluno/javax.faces.resource/images/status/loading43.gif.xhtml?ln=advtec HTTP/1.1" 200 982
+192.168.99.1 - - [11/Jul/2018:02:58:28 +0000] "GET /portalmbmaluno/javax.faces.resource/images/logo/mbm.png.xhtml?ln=advtec HTTP/1.1" 200 10063
+192.168.99.1 - - [11/Jul/2018:02:58:28 +0000] "GET /portalmbmaluno/javax.faces.resource/styles/custom.css.xhtml?ln=advtec HTTP/1.1" 200 488
+192.168.99.1 - - [11/Jul/2018:02:58:28 +0000] "GET /portalmbmaluno/javax.faces.resource/javascripts/app.js.xhtml?ln=advtec HTTP/1.1" 200 177
+192.168.99.1 - - [11/Jul/2018:02:58:28 +0000] "GET /portalmbmaluno/javax.faces.resource/images/defaults/aluno.jpg.xhtml?ln=advtec HTTP/1.1" 200 4082
+192.168.99.1 - - [11/Jul/2018:02:58:28 +0000] "GET /favicon.ico HTTP/1.1" 200 21630

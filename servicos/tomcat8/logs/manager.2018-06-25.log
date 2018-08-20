@@ -1,0 +1,26 @@
+25-Jun-2018 17:49:27.617 INFO [http-nio-8080-exec-8] org.apache.catalina.core.ApplicationContext.log Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+25-Jun-2018 17:49:27.618 INFO [http-nio-8080-exec-8] org.apache.catalina.core.ApplicationContext.log Manager: init: Global resources are available
+25-Jun-2018 17:49:27.620 INFO [http-nio-8080-exec-8] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+25-Jun-2018 17:49:27.634 INFO [http-nio-8080-exec-7] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/portaladvtec'
+25-Jun-2018 17:49:27.636 INFO [http-nio-8080-exec-7] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to /usr/local/tomcat/webapps/portaladvtec.war
+25-Jun-2018 17:49:28.039 INFO [http-nio-8080-exec-6] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+25-Jun-2018 17:49:42.290 INFO [http-nio-8080-exec-5] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/portalwartha'
+25-Jun-2018 17:49:42.291 INFO [http-nio-8080-exec-5] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to /usr/local/tomcat/webapps/portalwartha.war
+25-Jun-2018 17:49:43.182 INFO [http-nio-8080-exec-4] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+25-Jun-2018 17:49:43.201 INFO [http-nio-8080-exec-4] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+25-Jun-2018 17:49:43.210 INFO [http-nio-8080-exec-4] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/portaladvtec'
+25-Jun-2018 17:49:53.911 INFO [http-nio-8080-exec-6] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/portaladvtec'
+25-Jun-2018 17:49:53.911 INFO [http-nio-8080-exec-6] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to /usr/local/tomcat/webapps/portaladvtec.war
+25-Jun-2018 17:52:47.118 INFO [http-nio-8080-exec-11] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+25-Jun-2018 17:52:47.130 INFO [http-nio-8080-exec-11] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+25-Jun-2018 17:52:47.143 INFO [http-nio-8080-exec-11] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/portalmbmanjo'
+25-Jun-2018 17:52:47.766 INFO [http-nio-8080-exec-13] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/portalmbmanjo'
+25-Jun-2018 17:52:47.768 INFO [http-nio-8080-exec-13] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to /usr/local/tomcat/webapps/portalmbmanjo.war
+25-Jun-2018 17:54:21.631 INFO [http-nio-8080-exec-19] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+25-Jun-2018 17:54:21.639 INFO [http-nio-8080-exec-20] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+25-Jun-2018 17:54:21.641 INFO [http-nio-8080-exec-20] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/portalmbmanjo'
+25-Jun-2018 17:54:22.213 INFO [http-nio-8080-exec-16] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/portalmbmanjo'
+25-Jun-2018 17:54:22.213 INFO [http-nio-8080-exec-16] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to /usr/local/tomcat/webapps/portalmbmanjo.war
+25-Jun-2018 18:30:43.936 INFO [http-nio-8080-exec-26] org.apache.catalina.core.ApplicationContext.log HTMLManager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+25-Jun-2018 18:30:43.936 INFO [http-nio-8080-exec-26] org.apache.catalina.core.ApplicationContext.log HTMLManager: init: Global resources are available
+25-Jun-2018 18:30:44.010 INFO [http-nio-8080-exec-26] org.apache.catalina.core.ApplicationContext.log HTMLManager: list: Listing contexts for virtual host 'localhost'

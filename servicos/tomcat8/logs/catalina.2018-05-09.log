@@ -1,0 +1,221 @@
+09-May-2018 00:15:45.000 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.30
+09-May-2018 00:15:45.010 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 3 2018 20:04:09 UTC
+09-May-2018 00:15:45.011 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.30.0
+09-May-2018 00:15:45.012 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+09-May-2018 00:15:45.014 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.9.93-boot2docker
+09-May-2018 00:15:45.015 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+09-May-2018 00:15:45.017 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-openjdk-amd64/jre
+09-May-2018 00:15:45.018 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_171-8u171-b11-1~deb9u1-b11
+09-May-2018 00:15:45.019 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+09-May-2018 00:15:45.020 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /usr/local/tomcat
+09-May-2018 00:15:45.021 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /usr/local/tomcat
+09-May-2018 00:15:45.022 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/usr/local/tomcat/conf/logging.properties
+09-May-2018 00:15:45.026 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+09-May-2018 00:15:45.031 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+09-May-2018 00:15:45.032 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+09-May-2018 00:15:45.032 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+09-May-2018 00:15:45.033 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+09-May-2018 00:15:45.037 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/usr/local/tomcat
+09-May-2018 00:15:45.038 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/usr/local/tomcat
+09-May-2018 00:15:45.041 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/usr/local/tomcat/temp
+09-May-2018 00:15:45.045 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.5.2].
+09-May-2018 00:15:45.046 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+09-May-2018 00:15:45.047 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+09-May-2018 00:15:45.056 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.0f  25 May 2017]
+09-May-2018 00:15:45.733 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+09-May-2018 00:15:45.841 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+09-May-2018 00:15:45.911 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+09-May-2018 00:15:45.918 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+09-May-2018 00:15:45.919 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 3771 ms
+09-May-2018 00:15:46.076 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+09-May-2018 00:15:46.079 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.30
+09-May-2018 00:15:46.110 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [/usr/local/tomcat/conf/Catalina/localhost/manager.xml]
+09-May-2018 00:15:46.230 WARNING [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor A docBase [/usr/local/tomcat/webapps/manager] inside the host appBase has been specified, and will be ignored
+09-May-2018 00:15:47.211 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [/usr/local/tomcat/conf/Catalina/localhost/manager.xml] has finished in [1,099] ms
+09-May-2018 00:15:47.214 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/usr/local/tomcat/webapps/examples]
+09-May-2018 00:15:47.983 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/usr/local/tomcat/webapps/examples] has finished in [768] ms
+09-May-2018 00:15:47.985 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/usr/local/tomcat/webapps/docs]
+09-May-2018 00:15:48.118 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/usr/local/tomcat/webapps/docs] has finished in [129] ms
+09-May-2018 00:15:48.119 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/usr/local/tomcat/webapps/host-manager]
+09-May-2018 00:15:48.192 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/usr/local/tomcat/webapps/host-manager] has finished in [71] ms
+09-May-2018 00:15:48.194 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/usr/local/tomcat/webapps/ROOT]
+09-May-2018 00:15:48.348 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/usr/local/tomcat/webapps/ROOT] has finished in [154] ms
+09-May-2018 00:15:48.364 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+09-May-2018 00:15:48.394 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+09-May-2018 00:15:48.399 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2479 ms
+09-May-2018 00:44:15.207 INFO [http-nio-8080-exec-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/usr/local/tomcat/webapps/portalmbmanjo.war]
+09-May-2018 00:44:32.870 INFO [http-nio-8080-exec-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-May-2018 00:44:33.011 INFO [http-nio-8080-exec-2] org.jboss.weld.environment.servlet.EnhancedListener.onStartup WELD-ENV-001008: Initialize Weld using ServletContainerInitializer
+09-May-2018 00:44:33.082 INFO [http-nio-8080-exec-2] org.jboss.weld.bootstrap.WeldStartup.<clinit> WELD-000900: 2.4.1 (Final)
+09-May-2018 00:44:33.286 INFO [http-nio-8080-exec-2] org.jboss.weld.environment.deployment.discovery.DiscoveryStrategyFactory.create WELD-ENV-000020: Using jandex for bean discovery
+09-May-2018 00:44:34.172 INFO [http-nio-8080-exec-2] org.jboss.weld.bootstrap.WeldStartup.startContainer WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+09-May-2018 00:44:36.974 INFO [http-nio-8080-exec-2] org.jboss.weld.environment.tomcat.TomcatContainer.initialize WELD-ENV-001100: Tomcat 7+ detected, CDI injection will be available in Servlets, Filters and Listeners.
+09-May-2018 00:44:39.143 INFO [http-nio-8080-exec-2] org.jboss.weld.environment.servlet.Listener.contextInitialized WELD-ENV-001006: org.jboss.weld.environment.servlet.EnhancedListener used for ServletContext notifications
+09-May-2018 00:44:39.347 INFO [http-nio-8080-exec-2] com.sun.faces.config.ConfigureListener.contextInitialized Initializing Mojarra 2.3.2 ( 20170627-2139 e63598abf2ed2bb1a24674f308a734e0dce18a72) for context '/portalmbmanjo'
+09-May-2018 00:44:40.352 INFO [http-nio-8080-exec-2] com.sun.faces.spi.InjectionProviderFactory.createInstance JSF1048: PostConstruct/PreDestroy annotations present.  ManagedBeans methods marked with these annotations will have said annotations processed.
+09-May-2018 00:44:42.113 INFO [http-nio-8080-exec-2] org.hibernate.validator.internal.util.Version.<clinit> HV000001: Hibernate Validator 5.3.2.Final
+09-May-2018 00:44:45.739 INFO [http-nio-8080-exec-2] org.primefaces.webapp.PostConstructApplicationEventListener.processEvent Running on PrimeFaces 6.1
+09-May-2018 00:44:45.747 INFO [http-nio-8080-exec-2] org.jboss.weld.environment.servlet.EnhancedListener.contextInitialized WELD-ENV-001009: org.jboss.weld.environment.servlet.Listener used for ServletRequest and HttpSession notifications
+09-May-2018 00:44:45.811 INFO [http-nio-8080-exec-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/usr/local/tomcat/webapps/portalmbmanjo.war] has finished in [30,604] ms
+09-May-2018 00:46:00.922 INFO [http-nio-8080-exec-10] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [
+	name: persistence_mbmdb
+	...]
+09-May-2018 00:46:01.488 INFO [http-nio-8080-exec-10] org.hibernate.Version.logVersion HHH000412: Hibernate Core {5.2.4.Final}
+09-May-2018 00:46:01.496 INFO [http-nio-8080-exec-10] org.hibernate.cfg.Environment.<clinit> HHH000206: hibernate.properties not found
+09-May-2018 00:46:01.513 INFO [http-nio-8080-exec-10] org.hibernate.cfg.Environment.buildBytecodeProvider HHH000021: Bytecode provider name : javassist
+09-May-2018 00:46:01.756 INFO [http-nio-8080-exec-10] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+09-May-2018 00:46:02.793 WARN [http-nio-8080-exec-10] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+09-May-2018 00:46:02.858 INFO [http-nio-8080-exec-10] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001005: using driver [org.firebirdsql.jdbc.FBDriver] at URL [jdbc:firebirdsql:sistema.advtec.com.br/3050:e:/Clientes/MBM/HIGHTEC/DB_ADVTEC.FDB]
+09-May-2018 00:46:02.874 INFO [http-nio-8080-exec-10] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001001: Connection properties: {user=SYSDBA, password=****}
+09-May-2018 00:46:02.875 INFO [http-nio-8080-exec-10] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001003: Autocommit mode: false
+09-May-2018 00:46:02.902 INFO [http-nio-8080-exec-10] org.hibernate.engine.jdbc.connections.internal.PooledConnections.<init> HHH000115: Hibernate connection pool size: 20 (min=1)
+09-May-2018 00:46:04.021 INFO [http-nio-8080-exec-10] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.FirebirdDialect
+09-May-2018 00:46:07.970 INFO [http-nio-8080-exec-10] org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@73567441] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+09-May-2018 00:46:22.065 WARN [http-nio-8080-exec-10] org.hibernate.tool.schema.internal.ExceptionHandlerLoggedImpl.handleException GenerationTarget encountered exception accepting command : Error executing DDL via JDBC Statement
+ org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:524)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:470)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applyForeignKeys(AbstractSchemaMigrator.java:429)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:245)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:110)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:177)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:66)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:309)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:445)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:877)
+	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:58)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
+	at br.com.advtec.util.EntityManagerProduces.<init>(EntityManagerProduces.java:29)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.jboss.weld.injection.ConstructorInjectionPoint.newInstance(ConstructorInjectionPoint.java:119)
+	at org.jboss.weld.injection.ConstructorInjectionPoint.invokeAroundConstructCallbacks(ConstructorInjectionPoint.java:92)
+	at org.jboss.weld.injection.ConstructorInjectionPoint.newInstance(ConstructorInjectionPoint.java:78)
+	at org.jboss.weld.injection.producer.AbstractInstantiator.newInstance(AbstractInstantiator.java:28)
+	at org.jboss.weld.injection.producer.BasicInjectionTarget.produce(BasicInjectionTarget.java:112)
+	at org.jboss.weld.injection.producer.BeanInjectionTarget.produce(BeanInjectionTarget.java:180)
+	at org.jboss.weld.bean.ManagedBean.create(ManagedBean.java:158)
+	at org.jboss.weld.context.AbstractContext.get(AbstractContext.java:96)
+	at org.jboss.weld.bean.ContextualInstanceStrategy$DefaultContextualInstanceStrategy.get(ContextualInstanceStrategy.java:100)
+	at org.jboss.weld.bean.ContextualInstanceStrategy$ApplicationScopedContextualInstanceStrategy.get(ContextualInstanceStrategy.java:140)
+	at org.jboss.weld.bean.ContextualInstance.get(ContextualInstance.java:50)
+	at org.jboss.weld.manager.BeanManagerImpl.getReference(BeanManagerImpl.java:744)
+	at org.jboss.weld.injection.producer.AbstractMemberProducer.getReceiver(AbstractMemberProducer.java:123)
+	at org.jboss.weld.injection.producer.AbstractMemberProducer.produce(AbstractMemberProducer.java:158)
+	at org.jboss.weld.bean.AbstractProducerBean.create(AbstractProducerBean.java:180)
+	at org.jboss.weld.context.AbstractContext.get(AbstractContext.java:96)
+	at org.jboss.weld.bean.ContextualInstanceStrategy$DefaultContextualInstanceStrategy.get(ContextualInstanceStrategy.java:100)
+	at org.jboss.weld.bean.ContextualInstanceStrategy$CachingContextualInstanceStrategy.get(ContextualInstanceStrategy.java:177)
+	at org.jboss.weld.bean.ContextualInstance.get(ContextualInstance.java:50)
+	at org.jboss.weld.bean.proxy.ContextBeanInstance.getInstance(ContextBeanInstance.java:99)
+	at org.jboss.weld.bean.proxy.ProxyMethodHandler.invoke(ProxyMethodHandler.java:99)
+	at org.jboss.weldx.persistence.EntityManager$102269724$Proxy$_$$_WeldClientProxy.createNamedQuery(Unknown Source)
+	at br.com.advtec.repositorio.AnjoRepository.getAnjoCredencial(AnjoRepository.java:54)
+	at br.com.advtec.controle.HomeBean.init(HomeBean.java:61)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.el.parser.AstValue.invoke(AstValue.java:247)
+	at org.apache.el.MethodExpressionImpl.invoke(MethodExpressionImpl.java:267)
+	at org.jboss.weld.util.el.ForwardingMethodExpression.invoke(ForwardingMethodExpression.java:40)
+	at org.jboss.weld.el.WeldMethodExpression.invoke(WeldMethodExpression.java:50)
+	at com.sun.faces.facelets.el.TagMethodExpression.invoke(TagMethodExpression.java:107)
+	at javax.faces.component.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:87)
+	at com.sun.faces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:102)
+	at javax.faces.component.UIViewAction.broadcast(UIViewAction.java:587)
+	at javax.faces.component.UIViewRoot.broadcastEvents(UIViewRoot.java:870)
+	at javax.faces.component.UIViewRoot.processApplication(UIViewRoot.java:1418)
+	at com.sun.faces.lifecycle.InvokeApplicationPhase.execute(InvokeApplicationPhase.java:82)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:100)
+	at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:201)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:670)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at br.com.advtec.filter.FilterInicio.doFilter(FilterInicio.java:30)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.firebirdsql.jdbc.FBSQLException: GDS Exception. 335544351. unsuccessful metadata update
+partner index segment no 1 has incompatible data type
+	at org.firebirdsql.jdbc.InternalTransactionCoordinator$AutoCommitCoordinator.statementCompleted(InternalTransactionCoordinator.java:366)
+	at org.firebirdsql.jdbc.InternalTransactionCoordinator.statementCompleted(InternalTransactionCoordinator.java:130)
+	at org.firebirdsql.jdbc.AbstractStatement.notifyStatementCompleted(AbstractStatement.java:236)
+	at org.firebirdsql.jdbc.AbstractStatement.notifyStatementCompleted(AbstractStatement.java:231)
+	at org.firebirdsql.jdbc.AbstractStatement.execute(AbstractStatement.java:841)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 85 more
+Caused by: org.firebirdsql.gds.GDSException: unsuccessful metadata update
+partner index segment no 1 has incompatible data type
+	at org.firebirdsql.gds.impl.wire.AbstractJavaGDSImpl.readStatusVector(AbstractJavaGDSImpl.java:2120)
+	at org.firebirdsql.gds.impl.wire.AbstractJavaGDSImpl.receiveResponse(AbstractJavaGDSImpl.java:2070)
+	at org.firebirdsql.gds.impl.wire.AbstractJavaGDSImpl.iscCommitTransaction(AbstractJavaGDSImpl.java:864)
+	at org.firebirdsql.gds.impl.GDSHelper.commitTransaction(GDSHelper.java:653)
+	at org.firebirdsql.jca.FBManagedConnection.internalCommit(FBManagedConnection.java:623)
+	at org.firebirdsql.jca.FBLocalTransaction.internalCommit(FBLocalTransaction.java:192)
+	at org.firebirdsql.jca.FBLocalTransaction.commit(FBLocalTransaction.java:166)
+	at org.firebirdsql.jdbc.InternalTransactionCoordinator$AutoCommitCoordinator.statementCompleted(InternalTransactionCoordinator.java:361)
+	... 90 more
+
+09-May-2018 00:46:22.464 INFO [http-nio-8080-exec-10] org.hibernate.hql.internal.QueryTranslatorFactoryInitiator.initiateService HHH000397: Using ASTQueryTranslatorFactory
+09-May-2018 00:46:23.299 INFO [http-nio-8080-exec-10] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [
+	name: persistence_mbmcf
+	...]
+09-May-2018 00:46:23.408 WARN [http-nio-8080-exec-10] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+09-May-2018 00:46:23.419 INFO [http-nio-8080-exec-10] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001005: using driver [org.firebirdsql.jdbc.FBDriver] at URL [jdbc:firebirdsql:sistema.advtec.com.br/3050:e:/Clientes/MBM/HIGHTEC/CF_ADVTEC.FDB]
+09-May-2018 00:46:23.421 INFO [http-nio-8080-exec-10] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001001: Connection properties: {user=SYSDBA, password=****}
+09-May-2018 00:46:23.425 INFO [http-nio-8080-exec-10] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001003: Autocommit mode: false
+09-May-2018 00:46:23.431 INFO [http-nio-8080-exec-10] org.hibernate.engine.jdbc.connections.internal.PooledConnections.<init> HHH000115: Hibernate connection pool size: 20 (min=1)
+09-May-2018 00:46:23.992 INFO [http-nio-8080-exec-10] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.FirebirdDialect
+09-May-2018 00:46:24.265 INFO [http-nio-8080-exec-10] org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@403f55b8] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+09-May-2018 00:46:25.661 INFO [http-nio-8080-exec-10] org.hibernate.hql.internal.QueryTranslatorFactoryInitiator.initiateService HHH000397: Using ASTQueryTranslatorFactory
+09-May-2018 16:30:29.408 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+09-May-2018 16:30:29.429 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+09-May-2018 16:30:29.436 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+09-May-2018 16:30:29.611 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [portalmbmanjo] appears to have started a thread named [pool-1-thread-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+09-May-2018 16:30:29.617 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [portalmbmanjo] appears to have started a thread named [pool-2-thread-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+09-May-2018 16:30:29.671 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+09-May-2018 16:30:29.678 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+09-May-2018 16:30:29.688 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+09-May-2018 16:30:29.691 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]

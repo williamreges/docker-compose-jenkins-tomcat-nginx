@@ -1,0 +1,5 @@
+07-Jul-2018 19:24:41.244 INFO [http-nio-8080-exec-4] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+07-Jul-2018 19:24:41.272 INFO [http-nio-8080-exec-4] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+07-Jul-2018 19:24:41.285 INFO [http-nio-8080-exec-5] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/portalmbmanjo'
+07-Jul-2018 19:24:42.029 INFO [http-nio-8080-exec-8] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/portalmbmanjo'
+07-Jul-2018 19:24:42.029 INFO [http-nio-8080-exec-8] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to /usr/local/tomcat/webapps/portalmbmanjo.war

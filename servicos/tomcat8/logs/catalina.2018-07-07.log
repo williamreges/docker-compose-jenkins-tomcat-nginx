@@ -1,0 +1,7 @@
+07-Jul-2018 19:24:41.968 INFO [21] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/portalmbmanjo]
+07-Jul-2018 19:24:43.450 INFO [http-nio-8080-exec-8] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/usr/local/tomcat/webapps/portalmbmanjo.war]
+07-Jul-2018 19:24:47.746 INFO [http-nio-8080-exec-8] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Jul-2018 19:24:48.536 INFO [http-nio-8080-exec-8] com.sun.faces.config.ConfigureListener.contextInitialized Initializing Mojarra 2.3.2 ( 20170627-2139 e63598abf2ed2bb1a24674f308a734e0dce18a72) for context '/portalmbmanjo'
+07-Jul-2018 19:24:48.963 INFO [http-nio-8080-exec-8] com.sun.faces.spi.InjectionProviderFactory.createInstance JSF1048: PostConstruct/PreDestroy annotations present.  ManagedBeans methods marked with these annotations will have said annotations processed.
+07-Jul-2018 19:24:51.801 INFO [http-nio-8080-exec-8] org.primefaces.webapp.PostConstructApplicationEventListener.processEvent Running on PrimeFaces 6.1
+07-Jul-2018 19:24:53.546 INFO [http-nio-8080-exec-8] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/usr/local/tomcat/webapps/portalmbmanjo.war] has finished in [10,096] ms
