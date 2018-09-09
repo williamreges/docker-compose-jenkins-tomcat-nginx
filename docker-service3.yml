@@ -45,9 +45,18 @@ services:
                  replicas: 1
                  restart_policy:
                   condition: on-failure
+   portainer:
+                image: portainer/portainer
+                command: -H unix:///var/run/docker.sock
+                ports:
+                 - "9000:9000"
+                volumes:
+                 - ./servicos/portainer/docker.sock:/var/run/docker.sock
+                 - portainer_data:/data
 networks:
          redeadvtec:
 volumes:
        jenkins_home:
        tomcat_webapps:
        tomcat_logs:
+       portainer_data:
