@@ -29,7 +29,7 @@ services:
                   - tomcat_webapps:/usr/local/tomcat/webapps
                   - tomcat_logs:/usr/local/tomcat/logs
                 deploy:
-                  replicas: 1
+                  replicas: 3
                   restart_policy:
                    condition: on-failure
        nginx:
